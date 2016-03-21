@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+
+    <title></title>
+  </head>
+  <body>
+    <h1>Task Creator</h1>
+    <form class="tasks">
+      <label for="task">Enter a task here:</label>
+      <input id="inputTask" type="text" placeholder="Task Name">
+      <h3>Task Type</h3>
+      <select id="type">
+        <option value="work">Work</option>
+        <option value="home">Home</option>
+        <option value="hobby">Hobby</option>
+      </select>
+      <h3>Task Person</h3>
+      <select id="person">
+        <option value="diane">Diane</option>
+        <option value="thor">Thor</option>
+        <option value="loki">Loki</option>
+      </select>
+      <h3>Priority</h3>
+      <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit" name="button">Submit</button>
+    </form>
+    <div id="diane">
+      <ul>
+
+      </ul>
+    </div>
+    <div id="thor">
+      <ul>
+
+      </ul>
+    </div>
+    <div id="loki">
+      <ul>
+
+      </ul>
+    </div>
+  </body>
+</html>
